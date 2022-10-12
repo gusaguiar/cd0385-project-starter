@@ -30,7 +30,7 @@ Perform a more extensive data analysis, feature engineering, and additional rese
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|hpo1|hpo2|hpo3|hpo4|hpo5|hpo6|hpo7|score|
-|--|--|--|--|--|
+|---|---|---|---|---|---|---|---|---|
 |initial|default|default|default|default|default|default|default|1.80619
 |add_features|default|default|default|default|default|default|default|0.46933
 |hpo|GBM: num_boost_round: 100|GBM: learning_rate: ag.Real(0.01, 0.1, log=True)|XGB: n_estimators: 1000|XGB: learning_rate: ag.Real(0.01, 0.1, log=True)|NN_TORCH: num_epochs: 10|NN_TORCH: activation: relu|NN_TORCH: dropout_prob: ag.Real(0.0, 0.5)|0.50567
